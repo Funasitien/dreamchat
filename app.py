@@ -12,7 +12,7 @@ def main():
     host = socket.gethostname()
     # On choisi un port entre 1024 et 65535
     port_recept = 4000
-    #port_envoi = 4001
+    #port_envoi = 4001 🚧
 
     # On crée le socket utilisant IPv4 et TCP
     s_recept = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -39,4 +39,4 @@ def main():
     c.close()
 
 if __name__ == '__main__':
-    main()
+    app = main()
